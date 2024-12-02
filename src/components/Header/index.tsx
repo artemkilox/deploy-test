@@ -15,19 +15,19 @@ const Header = () => {
     return (
       <>
         <li>
-          <Link to={`/beans`}>Beans</Link>
+          <Link to={`/deploy-test/beans`}>Beans</Link>
         </li>
         <li>
-          <Link to={`/facts`}>Facts</Link>
+          <Link to={`/deploy-test/facts`}>Facts</Link>
         </li>
         <li>
-          <Link to={`/recipes`}>Recipes</Link>
+          <Link to={`/deploy-test/recipes`}>Recipes</Link>
         </li>
         <li>
-          <Link to={`/combinations`}>Combinations</Link>
+          <Link to={`/deploy-test/combinations`}>Combinations</Link>
         </li>
         <li>
-          <Link to={`/history`}>History</Link>
+          <Link to={`/deploy-test/history`}>History</Link>
         </li>
       </>
     );

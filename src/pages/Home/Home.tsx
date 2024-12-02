@@ -13,7 +13,7 @@ const Home = () => {
           <div className={style.top_pad}>
             <h1>Welcome to the World of Jelly Belly:</h1>
             <h2>A Rainbow of Flavors Awaits!</h2>
-            <Link to={"/review"}>Оставте отзыв!</Link>
+            <Link to={"/deploy-test/review"}>Оставте отзыв!</Link>
           </div>
         </div>
       </div>
